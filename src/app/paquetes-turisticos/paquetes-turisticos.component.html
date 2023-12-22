@@ -1,0 +1,9 @@
+<h2>Paquetes turísticos</h2>
+
+<ul>
+  <li *ngFor="let paquete of paquetesTuristicos">
+    <a href="/paquetes-turisticos/{{paquete.id}}">
+      {{paquete.nombre}}
+    </a>
+  </li>
+</ul>

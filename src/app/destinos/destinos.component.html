@@ -1,0 +1,9 @@
+<h2>Destinos</h2>
+
+<ul>
+  <li *ngFor="let destino of destinos">
+    <a href="/destinos/{{destino.id}}">
+      {{destino.nombre}}
+    </a>
+  </li>
+</ul>
